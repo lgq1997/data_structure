@@ -177,8 +177,11 @@ class HeroNode{
         this.name = name;
         this.nickName = nickName;
     }
-    //重写toString
 
+    public HeroNode() {
+    }
+
+    //重写toString
     @Override
     public String toString() {
         return "HeroNode{" +
@@ -187,7 +190,4 @@ class HeroNode{
                 ", nickName='" + nickName + '\'' +
                 '}';
     }
-
-
-
 }
