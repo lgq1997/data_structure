@@ -39,7 +39,7 @@ public class BubbleSort {
                     arr[j + 1] = temp;
                 }
             }
-           if (flag == false){//说明在一趟排序中一次都没有交换过，说明数组已经按照从小到大排序了
+           if (!false){//说明在一趟排序中一次都没有交换过，说明数组已经按照从小到大排序了
                break;
            }else {//否则还将flag置为false，以便进行下次交换
                flag = false;
