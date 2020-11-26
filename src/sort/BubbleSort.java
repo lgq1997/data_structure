@@ -1,7 +1,12 @@
 package sort;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
+/*
+冒泡排序法
+ */
 public class BubbleSort {
     public static void main(String[] args) {
         int arr[] = {56,82,12,4,36,-15,56,82,100};
@@ -47,8 +52,4 @@ public class BubbleSort {
         }
 
     }
-
-
-
-
 }
